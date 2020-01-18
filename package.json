@@ -1,0 +1,26 @@
+{
+  "name": "vuepress-plugin-element-tabs",
+  "version": "0.2.8",
+  "description": "Vuepress plugin - Tabs Container for Vuepress",
+  "author": "yuhongda0315@163.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "keywords": [
+    "vuepress-plugin",
+    "tabs",
+    "component"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "release-it": "^10.3.1",
+    "vuepress": "^1.0.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "sass-loader": "^7.1.0"
+  }
+}
