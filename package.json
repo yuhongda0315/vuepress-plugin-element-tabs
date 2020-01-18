@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "ghpages": "gh-pages -d docs/.vuepress/dist",
+    "release": "release-it"
   },
   "keywords": [
     "vuepress-plugin",
